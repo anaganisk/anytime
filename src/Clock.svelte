@@ -47,7 +47,7 @@
         color: #272038;
         margin: 1px 0px;
 		text-transform: uppercase;
-		font-size: 4rem;
+		font-size: 3.5rem;
 		font-weight: 700;
     }
     .date-now {
