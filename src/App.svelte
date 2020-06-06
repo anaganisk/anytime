@@ -51,6 +51,9 @@
 	p{
 		text-align: center;
 	}
+	footer {
+		text-align: center;
+	}
 
 	.app-title {
 		color: #2b283b;
