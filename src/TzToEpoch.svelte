@@ -28,7 +28,7 @@
         margin: 2vh 1vw;
     }
     .full-width {
-        width: 100%;
+        width: 95%;
     }
     .data {
         font-size: 20px;
