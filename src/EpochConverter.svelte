@@ -21,7 +21,7 @@
         data = []
     }
     function changeEpoch(e) {
-        epoch = e.target.value;
+        epoch = parseInt(e.target.value, 10);
         data = []
     }
     
