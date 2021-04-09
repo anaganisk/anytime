@@ -1,0 +1,10 @@
+name = "anytime"
+type = "webpack"
+account_id = "ec7e9fa71f25edde4b6e3dc9c954d7d9"
+workers_dev = false
+route = "anytime.saikiran.dev/*"
+zone_id = "eccb7669fba3236a0e16e069d5ead18b"
+
+[site]
+bucket = "./public"
+entry-point = "workers-site"
