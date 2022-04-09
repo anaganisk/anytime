@@ -18,7 +18,7 @@
     "svelte": "^3.0.0"
   },
   "dependencies": {
-    "moment": "^2.26.0",
+    "moment": "^2.29.2",
     "moment-timezone": "^0.5.31",
     "sirv-cli": "^0.4.4"
   }
