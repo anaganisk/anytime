@@ -366,6 +366,12 @@ picomatch@^2.0.4, picomatch@^2.2.1, picomatch@^2.2.2:
   version "2.2.2"
   resolved "https://registry.npmjs.org/picomatch/-/picomatch-2.2.2.tgz"
 
+randombytes@^2.1.0:
+  version "2.1.0"
+  resolved "https://registry.yarnpkg.com/randombytes/-/randombytes-2.1.0.tgz#df6f84372f0270dc65cdf6291349ab7a473d4f2a"
+  dependencies:
+    safe-buffer "^5.1.0"
+
 readdirp@~3.4.0:
   version "3.4.0"
   resolved "https://registry.npmjs.org/readdirp/-/readdirp-3.4.0.tgz"
@@ -396,14 +402,14 @@ rollup-plugin-svelte@^5.0.3:
     rollup-pluginutils "^2.8.2"
     sourcemap-codec "^1.4.8"
 
-rollup-plugin-terser@^5.1.2:
-  version "5.3.0"
-  resolved "https://registry.npmjs.org/rollup-plugin-terser/-/rollup-plugin-terser-5.3.0.tgz"
+rollup-plugin-terser@^5.3.1:
+  version "5.3.1"
+  resolved "https://registry.yarnpkg.com/rollup-plugin-terser/-/rollup-plugin-terser-5.3.1.tgz#8c650062c22a8426c64268548957463bf981b413"
   dependencies:
     "@babel/code-frame" "^7.5.5"
     jest-worker "^24.9.0"
     rollup-pluginutils "^2.8.2"
-    serialize-javascript "^2.1.2"
+    serialize-javascript "^4.0.0"
     terser "^4.6.2"
 
 rollup-pluginutils@^2.8.2:
@@ -424,9 +430,15 @@ sade@^1.4.0:
   dependencies:
     mri "^1.1.0"
 
-serialize-javascript@^2.1.2:
-  version "2.1.2"
-  resolved "https://registry.npmjs.org/serialize-javascript/-/serialize-javascript-2.1.2.tgz"
+safe-buffer@^5.1.0:
+  version "5.2.1"
+  resolved "https://registry.yarnpkg.com/safe-buffer/-/safe-buffer-5.2.1.tgz#1eaf9fa9bdb1fdd4ec75f58f9cdb4e6b7827eec6"
+
+serialize-javascript@^4.0.0:
+  version "4.0.0"
+  resolved "https://registry.yarnpkg.com/serialize-javascript/-/serialize-javascript-4.0.0.tgz#b525e1238489a5ecfc42afacc3fe99e666f4b1aa"
+  dependencies:
+    randombytes "^2.1.0"
 
 sirv-cli@^0.4.4:
   version "0.4.6"
