@@ -326,9 +326,9 @@ minimatch@^3.0.4:
   dependencies:
     brace-expansion "^1.1.7"
 
-moment-timezone@^0.5.31:
-  version "0.5.31"
-  resolved "https://registry.npmjs.org/moment-timezone/-/moment-timezone-0.5.31.tgz"
+moment-timezone@^0.5.35:
+  version "0.5.35"
+  resolved "https://registry.yarnpkg.com/moment-timezone/-/moment-timezone-0.5.35.tgz#6fa2631bdbe8ff04f6b8753f7199516be6dc9839"
   dependencies:
     moment ">= 2.9.0"
 
